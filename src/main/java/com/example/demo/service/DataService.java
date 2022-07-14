@@ -1,11 +1,13 @@
 package com.example.demo.service;
 
 import com.example.demo.Data;
-import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import org.springframework.stereotype.Service;
 
+/**
+ * Class DataService.
+ */
 @Service
 public class DataService {
   public Data retornaDataAtual() {
